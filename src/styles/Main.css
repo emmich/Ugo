@@ -841,12 +841,13 @@ hr {
     opacity: 1; 
     transform: none;
     height: 100px;
-    width: 350px;
+    width: auto;
     background-color: #ac05ca31;
     display: flex;
     color: white;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin: 20px 0px;
+    /* border: 1px solid white; */
 }
 
 .contact .email-box span {

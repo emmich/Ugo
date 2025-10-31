@@ -1,17 +1,18 @@
 import '../styles/Menu.css'
+import React from 'react';
 // import Works from '../components/Works'
 
     export default function Menu() {
         const onButtonClick = () => {
           // using Java Script method to get PDF file
-          fetch('Ugo(updated)CV.pdf').then(response => {
+          fetch('UgoCV.pdf').then(response => {
               response.blob().then(blob => {
                   // Creating new object of PDF file
                   const fileURL = window.URL.createObjectURL(blob);
                   // Setting various property values
                   let alink = document.createElement('a');
                   alink.href = fileURL;
-                  alink.download = 'Ugocv.pdf';
+                  alink.download = 'ugocv.pdf';
                   alink.click();
               })
           })
@@ -29,7 +30,7 @@ import '../styles/Menu.css'
                         <div className="hide1">Linkedin</div>
                         <a href="https://github.com/emmich" target='_blank' rel='noreferrer'><img src="/assets/git.png" width= "22px;" height="22px" alt="Github" /></a>
                         <div className="hide2">Github</div>
-                        <a href=" "onClick={onButtonClick} className="cv" rel='noreferrer'><img src="/assets/file.png" width= "22px;" height="22px" alt="Resume" /></a>
+                        <a href="/#" onClick={onButtonClick} className="cv" rel='noreferrer'><img src="/assets/file.png" width= "22px;" height="22px" alt="Resume" /></a>
                         <div className="hide3">Resume</div>
                         
                     </div>

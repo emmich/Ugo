@@ -42,18 +42,18 @@ const Main = () => {
                     <br></br>
                     <div className="container mt-5 gap-6 pl-2 pr-2 lg:pl-0 lg:pr-0 flex flex-col md:flex-row justify-center md:items-stretch items-center">
                         <div className="shadow-xl px-10 py-7 w-[234px] flex-1 rounded-xl flex flex-col gap-5 justify-center items-center text-black dark:text-white dark:bg-[#1B1631] dark:shadow-2xl" >
-                            <span class="text-4xl sm:text-5xl font-semibold text-center flex items-center">
-                                <span class="inline-block tabular-nums tracking-wider text-black dark:text-white">5</span>+</span>
+                            <span class="text-4xl sm:text-5xl font-semibold text-center text-white flex items-center">
+                                <span class="inline-block tabular-nums tracking-wider">5</span>+</span>
                                 <p class="subtle-text !text-base lg:!text-md dark:text-white text-center line-clamp-2">Years of Experience</p>
                         </div>
                         <div class="shadow-xl px-10 py-7 w-[234px] flex-1 rounded-xl flex flex-col gap-5 justify-center items-center text-black dark:text-white dark:bg-[#1B1631] dark:shadow-2xl" >
-                            <span class="text-4xl sm:text-5xl font-semibold text-center flex items-center">
-                                <span class="inline-block tabular-nums tracking-wider text-black dark:text-white">6</span>+</span>
+                            <span class="text-4xl sm:text-5xl font-semibold text-center text-white flex items-center">
+                                <span class="inline-block tabular-nums tracking-wider  dark:text-white">6</span>+</span>
                                 <p class="subtle-text !text-base lg:!text-md dark:text-white text-center line-clamp-2">Completed Projects & Demos</p>
                         </div>
                         <div class="shadow-xl px-10 py-7 w-[234px] flex-1 rounded-xl flex flex-col gap-5 justify-center items-center text-black dark:text-white dark:bg-[#1B1631] dark:shadow-2xl" >
-                            <span class="text-4xl sm:text-5xl font-semibold text-center flex items-center">
-                                <span class="inline-block tabular-nums tracking-wider text-black dark:text-white">10</span>+</span>
+                            <span class="text-4xl sm:text-5xl font-semibold text-center text-white flex items-center">
+                                <span class="inline-block tabular-nums tracking-wider  dark:text-white">10</span>+</span>
                                 <p class="subtle-text !text-base lg:!text-md dark:text-white text-center">Satisfied Brands & Industries</p>
                         </div>
 
