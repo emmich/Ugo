@@ -1,0 +1,74 @@
+.sticky-menu {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+
+    width: 280px;
+    height: 61px;
+    margin: auto;
+    position: fixed;
+    top: 30;
+    border: 1px solid white;
+    /* align-content: ; */
+
+}
+@media only screen and (max-width:425.98px) 
+{
+
+    .sticky-menu {
+        text-align: center;
+        margin: auto;
+    }
+}
+.socials {
+    width: 200px;
+    margin: auto;
+    position: relative;
+    /* border: 1px solid white; */
+}
+.socials .hide,.hide1,.hide2,.hide3 {
+    display: none;
+    color: white;
+    background-color: #3e12deb6;
+    border-radius: 5px;
+    /* width: 40px; */
+    padding: 7px;
+}
+.socials a:hover + .hide {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    position: absolute;
+    top: -50px;
+    left: -15px;
+    /* border: 1px solid white; */
+
+}
+.socials a:hover + .hide1 {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    position: absolute;
+    top: -50px;
+    left: 45px;
+    /* border: 1px solid white; */
+
+}
+.socials a:hover + .hide2 {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    position: absolute;
+    top: -50px;
+    right: 40px;
+
+}
+.socials a:hover + .hide3 {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    position: absolute;
+    top: -50px;
+    right: -20px;
+
+}

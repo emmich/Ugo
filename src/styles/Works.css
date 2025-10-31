@@ -1,0 +1,200 @@
+.project {
+    height: auto;
+    padding: 0px 150px 0px;
+    margin: auto;
+    /* border: 1px solid green; */
+    /* width: 100%; */
+    /* height: auto;
+    display: block;
+    width: 100%;
+    text-align: center; */
+    
+}
+
+.project a:hover {
+    text-decoration: none;
+}
+.project .project-item {
+    height: 250px;
+    width: 350px;
+    /* border: 1px solid green; */
+    display: inline-flex;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 25px;
+    position: relative;
+    align-items: baseline;
+    z-index: 20;
+    cursor: pointer;
+}
+@media only screen and (max-width:1024.98px) 
+{
+    .project {
+        padding: 0px 70px;
+        /* margin: 10px; */
+    }
+   
+}
+@media only screen and (max-width:768.98px) 
+{
+    .project .project-item {
+        height: 220px;
+        width: 300px;
+        /* border: 1px solid white; */
+    }
+    .project{
+        padding: 0px 10px;
+    }
+    .cards {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width:320.98px) 
+{
+    .project .project-item {
+        height: 205px;
+        width: 280px;
+    }
+}
+.project-item img {
+    width: 100%;
+    /* filter: brightness(50%); */
+}
+.project-item:hover {
+    /* filter: opacity(60%); */
+    /* filter: brightness(50%); */
+    /* transform: scale(0.97); */
+    transition: 1s ease-out;
+   
+}
+
+.project-item:hover::after {
+    content: "";
+    width: 100%;
+    height: 120px;
+    padding: 4px 8px;
+    color: #333;
+    position: absolute;
+    left: 0; 
+    bottom: 18px;
+    white-space: nowrap; 
+    z-index: 20;
+    border-radius: 20px;   
+    /* box-shadow: 0px 0px 4px #222;   */
+    background-image: linear-gradient(#6c6c6c00, #000000b3, #000000);  
+}
+
+.project .bottomLinks {
+    position: absolute;
+    z-index: 100;
+    bottom: 40px;
+    left: 20px;
+    visibility: hidden;
+    height: 150px;
+    width: 250px;
+    /* color: yellow; */
+}
+
+
+
+/* .works_done .bottom_links:hover {
+    display: block;
+} */
+/* .work:hover {
+
+    z-index: 1;
+    position: relative;
+    height: 250px;
+    width: 350px;
+    border: 3px solid rgb(48, 46, 46);
+    background-image: linear-gradient(182.23deg, rgba(217, 217, 217, 0) 4.59%, #000000 78.41%);
+    
+} */
+div.project-content {
+    opacity: 0;
+    transition: all 300ms ease;
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+    padding: 0.5rem 1.4rem;
+    padding-bottom: 0;
+    word-wrap: break-word;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.project-content .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2E97D2;
+}
+.project-item h3 {
+      color: #fffdfc;
+      margin-bottom: 0.1rem;
+      letter-spacing: 0.8px;
+}
+/* p {
+    color: #d5d5d5;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    padding-bottom: 0.5rem;
+    width: 100%;
+} */
+/* & span {
+    display: inline-block;
+    font-size: 11px;
+    color: #fffdfc;
+    background-color: #696869;
+    padding: 0.2rem 0.55rem;
+    border-radius: 50px;
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+    } */
+
+ 
+.project .project-item:hover .project-content,
+.project .project-item:focus .project-content {
+    z-index: 99;
+    opacity: 1;
+    bottom: 2.9rem;
+}
+ .project-item .project-content a {
+    color: white;
+    text-decoration-line: none;
+    font-weight: bold;
+    /* z-index: 999; */
+    font-size: 16px;
+    transform: scale(1.1); 
+    transition: .3s ease-in-out;
+    
+} 
+.project-item .project-content a:hover {
+    border-bottom: 5px solid white;
+    /* z-index: 999; */
+    color: white;
+}
+@media only screen and (max-width:768.98px) 
+{
+    .project-item .project-content a{
+        font-size: 14px;
+    }
+    .project-content .title {
+        font-size: 15px;
+    }
+   
+}
+@media only screen and (max-width:320.98px) 
+{
+    .project-item .project-content a {
+        font-size: 14px;
+    }
+    .project-content .title {
+        font-size: 15px;
+    }
+}
+  
+

@@ -1,0 +1,47 @@
+.card-element {
+    width: 49%;
+}
+@media only screen and (max-width:425.98px) 
+{
+    .card-element {
+        width: auto;
+
+    }
+    .card-element img {
+        width: auto;
+    }
+    .experience-cards{
+        margin-top: 0px;
+    }
+}
+.experience-cards .exp-content {
+   font-size: 15px; 
+   line-height: 22px;
+   color: white;
+   margin-top: 10px;
+}
+.more-info {
+
+}
+.experience-cards .more-info p {
+    font-weight: 500;
+    color: rgb(234, 233, 233);
+    font-size: 14px;
+}
+.experience-cards .more-info span {
+    font-weight: 500;
+    color: rgb(232, 11, 236);
+    font-size: 15px;
+    margin-top: 0px;
+}
+@media only screen and (max-width:768.98px) 
+{
+    /* .experience-cards .card-element .rounded-md {
+        display:none;
+    } */
+    /* .experience-cards {
+        padding: 0px 0px;
+    } */
+}
+
+
