@@ -1,5 +1,5 @@
 import '../styles/Menu.css'
-import Works from '../components/Works'
+// import Works from '../components/Works'
 
     export default function Menu() {
         const onButtonClick = () => {
@@ -29,7 +29,7 @@ import Works from '../components/Works'
                         <div className="hide1">Linkedin</div>
                         <a href="https://github.com/emmich" target='_blank' rel='noreferrer'><img src="/assets/git.png" width= "22px;" height="22px" alt="Github" /></a>
                         <div className="hide2">Github</div>
-                        <a href=""onClick={onButtonClick} className="cv" rel='noreferrer'><img src="/assets/file.png" width= "22px;" height="22px" alt="Resume" /></a>
+                        <a href=" "onClick={onButtonClick} className="cv" rel='noreferrer'><img src="/assets/file.png" width= "22px;" height="22px" alt="Resume" /></a>
                         <div className="hide3">Resume</div>
                         
                     </div>
