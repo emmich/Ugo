@@ -5,7 +5,7 @@ import React from 'react';
     export default function Menu() {
         const onButtonClick = () => {
           // using Java Script method to get PDF file
-          fetch('UgoCV.pdf').then(response => {
+          fetch('UgoCVIT.pdf').then(response => {
               response.blob().then(blob => {
                   // Creating new object of PDF file
                   const fileURL = window.URL.createObjectURL(blob);
