@@ -10,7 +10,11 @@
     text-align: center; */
     
 }
-
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+}
 .project a:hover {
     text-decoration: none;
 }
@@ -33,6 +37,7 @@
         padding: 0px 70px;
         /* margin: 10px; */
     }
+    
    
 }
 @media only screen and (max-width:768.98px) 
@@ -45,16 +50,26 @@
     .project{
         padding: 0px 10px;
     }
+   
+   
+}
+@media only screen and (max-width:425.98px) 
+{
     .cards {
-        width: 320px;
+        width: auto;
+    }
+    .works{
+        padding: 0px 0px 0px 5px;
     }
 }
-
 @media only screen and (max-width:320.98px) 
 {
     .project .project-item {
         height: 205px;
         width: 280px;
+    }
+    .cards {
+        width: auto;
     }
 }
 .project-item img {

@@ -71,7 +71,7 @@ const Main = () => {
                         <div className="row">
                             <div className="col-lg-12 about">
                                 <h1>who am i?</h1>
-                                <p>Hey there once again, This is Ugo. <img src="/assets/me.png" width= "25px;" height="25px" alt="me" /></p>
+                                <p className='d-flex'>Hey there once again, This is Ugo. <img src="/assets/me.png" width= "25px;" height="25px" alt="me" /></p>
                                 <p>I am a Digital Strategist with experience in all sectors of Digital & Brand Growth. A Software Developer practicing in frontend engineering, skilled at bringing ideas into life, brand awareness, growth hacker and web experience interactions. Making use of world-class tools, ideas, inspirations and collaborative minds to produce great user experience.  </p>
                                 <p className="moresub mt-2">Building creative web/digital products and designs with accepted user experience concepts. I enjoy digging my hands in digital and tech projects, collaborating and getting exposed. I also work remotely as a digital strategist and product designer for a few teams and organization.</p>
                             </div>

@@ -13,7 +13,7 @@ const Works = () => {
     return ( 
         <div className="project flex justify-between w-full flex-wrap">
 
-            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300">
+            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300 sm:w-1/2 md:w-1/2 lg:w-1/2">
                 <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
                     <img class="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110" 
                         src="/assets/stackpage.png" alt="investment-seed-round" />
@@ -35,7 +35,7 @@ const Works = () => {
 
 
 
-            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300">
+            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300 sm:w-1/2 md:w-1/2">
                 <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
                     <img class="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110" 
                         src="/assets/work9.png" alt="investment-seed-round" />
@@ -56,7 +56,7 @@ const Works = () => {
 
 
 
-            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300">
+            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300 sm:w-1/2 md:w-1/2">
                 <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
                     <img class="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110" 
                         src="/assets/work8.png" alt="investment-seed-round" />
@@ -78,7 +78,7 @@ const Works = () => {
 
 
 
-            <div class=" cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300">
+            <div class=" cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300 sm:w-1/2 md:w-1/2">
                 <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
                     <img class="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110" 
                         src="/assets/work4.png" alt="investment-seed-round" />
@@ -100,7 +100,7 @@ const Works = () => {
 
 
 
-            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300">
+            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300 sm:w-1/2 md:w-1/2">
                 <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
                     <img class="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110" 
                         src="/assets/work1.png" alt="investment-seed-round" />
@@ -121,7 +121,7 @@ const Works = () => {
 
 
 
-            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300">
+            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300 sm:w-1/2 md:w-1/2">
                 <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
                     <img class="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110" 
                         src="/assets/work2.png" alt="investment-seed-round" />
@@ -139,7 +139,7 @@ const Works = () => {
             </div> 
 
 
-            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300">
+            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300 sm:w-1/2 md:w-1/2">
                 <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
                     <img class="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110" 
                         src="/assets/work5.png" alt="investment-seed-round" />
@@ -157,7 +157,7 @@ const Works = () => {
             </div> 
 
 
-            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300">
+            <div class="cards cursor-pointer group relative flex flex-col my-6 bg-dark-800 shadow-sm border border-slate-200 rounded-xl w-96 hover:shadow-lg transition-shadow duration-300 sm:w-1/2 md:w-1/2">
                 <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
                     <img class="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110" 
                         src="/assets/work7.png" alt="investment-seed-round" />

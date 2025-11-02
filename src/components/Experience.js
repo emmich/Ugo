@@ -6,7 +6,7 @@ const Experience = () => {
 
 return ( 
     <div className="experience-cards flex justify-between w-100 flex-wrap sm:grid-cols-2">
-        <div class="card-element relative flex flex-col sm:grid-cols-2 md:flex-row w-full my-6 bg-transparent shadow-sm border border-slate-200 rounded-xl">
+        <div class="card-element relative flex flex-col sm:grid-cols-2 sm:w-1/2 md:flex-row w-full my-6 bg-transparent shadow-sm border border-slate-200 rounded-xl">
             <div class="relative p-2.5 md:w-2/5 shrink-1 overflow-hidden">
                 <img
                 src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80"
