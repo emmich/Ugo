@@ -227,6 +227,12 @@ main {
         display: none;
     }
 }
+@media only screen and (max-width:320.98px) 
+{
+    .section_one h1 {
+        height: 90px;
+    }
+}
 .subhead span {
     color: #3e12de;
     font-weight: 800;
