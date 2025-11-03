@@ -12,7 +12,7 @@ const Main = () => {
                     {/* <button class="bg-indigo-500 shadow-lg shadow-indigo-500/50 ...">Subscribe</button> */}
                     <div className="hello text-center rounded-md bg-purple-10 px-2 py-1 text-md font-medium text-white ring-1 ring-purple-700/100 ring-inset">Hey there!&nbsp;I am</div>
                     <h1 className="animate-character mt-3 underline">ugo ogbonna</h1>
-                    <p className="moresub mt-5">A digital and tech-focused individual, experienced in <span><i>Frontend Development, Digital Strategist & Performance, Product Designs and Cloud Engineer. </i></span></p>
+                    <p className="moresub mt-4">A digital and tech-focused individual, experienced in <span><i>Frontend Development, Digital Strategist & Performance, Product Designs and Cloud Engineer. </i></span></p>
                     <p className="subhead mt-5">Transforming visions into reality, one <span><i>frame </i></span> at a time. </p>
                     <br /> <br />
                     <div className="relative">
