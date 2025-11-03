@@ -230,7 +230,7 @@ main {
 @media only screen and (max-width:320.98px) 
 {
     .section_one h1 {
-        height: 90px;
+        height: auto;
     }
 }
 .subhead span {
