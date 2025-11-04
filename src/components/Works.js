@@ -24,10 +24,10 @@ const Works = () => {
                     </h6>                  
                 </div>
                 <div class="px-4 pb-4 pt-0 mt-2 flex text-center m-auto">
-                    <a href="https://www.stackwisr.co.uk" target="_blank" rel='noreferrer' class="rounded-md bg-slate-800 mx-2 py-2 px-2 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+                    <a href="https://stackwisr-uk.vercel.app" target="_blank" rel='noreferrer' class="rounded-md bg-slate-800 mx-2 py-2 px-2 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
                     Web view
                     </a>
-                    <a href="https://www.github.com" target="_blank" rel='noreferrer' class="rounded-md bg-slate-800 py-2 px-2 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+                    <a href="https://github.com/Ehiremengold/stackwisr-uk" target="_blank" rel='noreferrer' class="rounded-md bg-slate-800 py-2 px-2 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
                     Github
                     </a>
                 </div>
