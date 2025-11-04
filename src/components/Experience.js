@@ -17,7 +17,7 @@ return (
             <div className="p-3">
                 <div className="mb-2 rounded-full bg-purple-800 py-2.5 px-1.5 border border-transparent text-xs text-white transition-all shadow-sm w-40 text-center text-bold">StackwisR Limited</div>
                     <h4 class="mt-4 text-white text-xl font-bold">
-                    Senior Digital Strategist & UI/UX Designer
+                    IT/Senior Digital Strategist & UI/UX Designer
                     </h4>
                     <p className="exp-content mb-3 text-gray-950 leading-normal">
                     Plan and execute B2B and B2C marketing structure.<br></br>
@@ -27,7 +27,7 @@ return (
                     <div className="more-info d-flex justify-between">
                         <p>City: <span>Portsmouth</span></p>
                         <p>Country: <span>UK</span></p>
-                        <p>Dept: <span>Markeing</span></p>
+                        <p>Dept: <span>IT</span></p>
                     </div>
                 <div>
                 
@@ -57,7 +57,7 @@ return (
                     <div className="more-info d-flex justify-between">
                         <p>City: <span>Lagos</span></p>
                         <p>Country: <span>Nigeria</span></p>
-                        <p>Dept: <span>Developement</span></p>
+                        <p>Dept: <span>IT/Developement</span></p>
                     </div>
                 <div>
                 
@@ -116,7 +116,7 @@ return (
                     <div className="more-info d-flex justify-between">
                         <p>City: <span>Lagos</span></p>
                         <p>Country: <span>Nigeria</span></p>
-                        <p>Business: <span>Blockchain</span></p>
+                        <p>Dept: <span>IT/Developement</span></p>
                     </div>
                 <div>
                 

@@ -12,7 +12,7 @@ const Main = () => {
                     {/* <button class="bg-indigo-500 shadow-lg shadow-indigo-500/50 ...">Subscribe</button> */}
                     <div className="hello text-center rounded-md bg-purple-10 px-2 py-1 text-md font-medium text-white ring-1 ring-purple-700/100 ring-inset">Hey there!&nbsp;I am</div>
                     <h1 className="animate-character mt-5 underline">ugo ogbonna</h1>
-                    <p className="moresub mt-4">A digital and tech-focused individual, experienced in <span><i>Frontend Development, Digital Strategist & Performance, Product Designs and Cloud Engineer. </i></span></p>
+                    <p className="moresub mt-4">A digital and tech-focused individual, experienced in <span><i>IT Infrastructure, Frontend Development, Digital Strategist & Performance, Product Designs and Cloud Engineer. </i></span></p>
                     <p className="subhead mt-5">Transforming visions into reality, one <span><i>frame </i></span> at a time. </p>
                     <br /> <br />
                     <div className="relative">
@@ -72,7 +72,7 @@ const Main = () => {
                             <div className="col-lg-12 about">
                                 <h1>who am i?</h1>
                                 <p className='d-flex'>Hey there once again, This is Ugo. <img src="/assets/me.png" width= "25px;" height="25px" alt="me" /></p>
-                                <p>I am a Digital Strategist with experience in all sectors of Digital & Brand Growth. A Software Developer practicing in frontend engineering, skilled at bringing ideas into life, brand awareness, growth hacker and web experience interactions. Making use of world-class tools, ideas, inspirations and collaborative minds to produce great user experience.  </p>
+                                <p>I am an IT Personel and Digital Strategist with experience in all sectors of Digital & Brand Growth in the IT Department. A Software Developer practicing in frontend engineering, skilled at bringing ideas into life, brand awareness, growth hacker and web experience interactions. Making use of world-class tools, ideas, inspirations and collaborative minds to produce great user experience.  </p>
                                 <p className="moresub mt-2">Building creative web/digital products and designs with accepted user experience concepts. I enjoy digging my hands in digital and tech projects, collaborating and getting exposed. I also work remotely as a digital strategist and product designer for a few teams and organization.</p>
                             </div>
                             <div className="col-lg-12"></div>
@@ -225,7 +225,7 @@ const Main = () => {
                         </div>
 
 
-                        <h2 className="">Other Skills & Technology Tools</h2>
+                        <h2 className="">Other IT Skills & Technology Tools</h2>
                         <div className="flex flex-wrap gap-3 mt-4">
                             <div className="bg-slate-gray rounded-lg py-2 px-3 dark:text-black text-black dark:bg-secondary whitespace-nowrap bg-white  shadow-md">Cloud Practictioner</div>
                             <div className="bg-slate-gray rounded-lg py-2 px-3 dark:text-black text-black dark:bg-secondary whitespace-nowrap bg-white shadow-md">AWS</div>
